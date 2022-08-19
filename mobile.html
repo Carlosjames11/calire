@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <script src="bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap/jquery-3.6.0.min.js"></script>
+  <title>Shopsss</title>
+</head>
+
+<style>
+  .nav-link:hover {
+    color: burlywood;
+  }
+</style>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container bg-white">
+      <img src="images/logo1.jpg" style="width: 6%; border-radius: 50px;">
+      <h1 style="color: rgba(90, 156, 165, 0.938); font-style: san-serif; font-size: 25px;"> Shopify</h1>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown" style="margin-left: 30%; padding:10px;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fs-4" aria-current="page" href="home.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Men.html">Men</a></li>
+              <li><a class="dropdown-item" href="Women.html">Women</a></li>
+              <li><a class="dropdown-item" href="Kids.html">Kids</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Gadgets
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="laptops.html">Laptops</a></li>
+              <li><a class="dropdown-item" href="mobile.html">Mobile</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-4" aria-current="page" href="#">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><br>
+  <section>
+
+    <hr>
+
+    <div class="d-flex">
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m1.jpg"  width="150%" style="margin-left:100px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px; font-size: 20px;">₱650.00</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart1">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+          <img src="mobiles/m2.jpg" width="150%" style="margin-left: 90px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px;">₱620.07</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart2">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m3.jpg" width="130%" style="margin-left:100px; margin-top: 20px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px;">₱590.02</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart3">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m4.jpg" width="150%"  style= "margin-left: 90px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px;">₱530.99</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart4">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section><br>
+  <hr>
+
+  <section>
+
+    <div class="d-flex">
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m5.jpg" width="120%" style="margin-left:110px; margin-top: 20px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px; font-size: 20px;">₱650.00</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart5">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m6.jpg" width="190%" style="margin-left:50px; margin-top: 20px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px;">₱620.07</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart6">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m7.jpg" width="140%" style="margin-left: 100px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px;">₱590.02</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart7">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m8.jpg" width="150%" style="margin-left: 70px; margin-top: 20px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px;">₱530.99</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart8">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section><br>
+  <hr>
+
+  <section>
+
+    <div class="d-flex">
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m9.jpg" width="180%" style="margin-left:80px; margin-top: 20px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px; font-size: 20px;">₱650.00</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart9">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 380px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m10.jpg" width="140%" style="margin-left:110px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px;">₱620.07</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart10">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m11.jpg" width="150%" style="margin-left:80px; margin-top: 5px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px;">₱590.02</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart11">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m12.jpg" width="180%" style="margin-left: 90px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px;">₱530.99</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart12">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section><br>
+  <hr>
+
+  <section>
+
+    <div class="d-flex">
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m13.jpg"  width="150%" style="margin-left:100px; margin-top: 20px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px; font-size: 20px;">₱650.00</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart13">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m14.jpg" width="180%" style="margin-left: 80px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px;">₱620.07</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart14">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m15.jpg"  width="170%" style="margin-left: 90px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px;">₱590.02</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart15">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m16.jpg"  width="160%" style="margin-left: 100px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px;">₱530.99</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart16">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section><br>
+  <hr>
+
+  <section>
+
+    <div class="d-flex">
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m17.jpg" width="120%" style="margin-left: 110px; margin-top: 20px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px; font-size: 20px;">₱650.00</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart17">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m18.jpg"  width="190%" style="margin-left: 70px; margin-top: 20px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px;">₱620.07</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart18">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m19.jpg" width="120%" style="margin-left:100px; margin-top: 20px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px;">₱590.02</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart19">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 400px; ">
+        <div class="row g-1">
+          <div class="col-md-4">
+            <img src="mobiles/m20.jpg"  width="180%" style="margin-left: 50px;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+              <h4 style="margin-top:190px;">₱530.99</h4>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cart20">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section><br>
+  <hr>
+
+      <!-- MODAL 1 --->
+      <div class="modal" tabindex="-1" id="cart1">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m1.jpg"  width="100%"
+              <h4>₱650.00</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 2 --->
+       <div class="modal" tabindex="-1" id="cart2">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m2.jpg" width="100%"
+              <h4>₱620.07</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 3 --->
+       <div class="modal" tabindex="-1" id="cart3">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m3.jpg" width="100%"
+              <h4>₱590.02</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 4 --->
+       <div class="modal" tabindex="-1" id="cart4">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m4.jpg" width="100%"
+              <h4>₱530.99</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 5 --->
+       <div class="modal" tabindex="-1" id="cart5">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m5.jpg" width="100%"
+              <h4>₱650.00</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 6 --->
+       <div class="modal" tabindex="-1" id="cart6">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m6.jpg" width="100%"
+                <h4>₱620.07</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 7 --->
+       <div class="modal" tabindex="-1" id="cart7">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m7.jpg" width="100%"
+              <h4>₱590.02</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 8 --->
+       <div class="modal" tabindex="-1" id="cart8">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m8.jpg" width="100%"
+              <h4>₱530.99</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 9 --->
+       <div class="modal" tabindex="-1" id="cart9">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m9.jpg" width="100%"
+                <h4>₱650.00</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 10 --->
+       <div class="modal" tabindex="-1" id="cart10">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m10.jpg" width="100%"
+                <h4>₱620.07</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 11 --->
+       <div class="modal" tabindex="-1" id="cart11">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m11.jpg" width="100%"
+                <h4>₱590.02</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 12 --->
+       <div class="modal" tabindex="-1" id="cart12">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m12.jpg" width="100%"
+                <h4>₱530.99</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 13 --->
+       <div class="modal" tabindex="-1" id="cart13">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m13.jpg"  width="100%"
+                <h4>₱650.00</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 14 --->
+       <div class="modal" tabindex="-1" id="cart14">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m14.jpg" width="100%"
+                <h4>₱620.07</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 15 --->
+       <div class="modal" tabindex="-1" id="cart15">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m15.jpg"  width="100%"
+              <h4 style="margin-top:190px;">₱590.02</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 16 --->
+       <div class="modal" tabindex="-1" id="cart16">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m16.jpg"  width="100%"
+              <h4>₱530.99</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 17 --->
+       <div class="modal" tabindex="-1" id="cart17">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m17.jpg" width="100%"
+                <h4>₱650.00</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- MODAL 18 --->
+       <div class="modal" tabindex="-1" id="cart18">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m18.jpg"  width="100%"
+                <h4>₱620.07</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   <!-- MODAL 19 --->
+    <div class="modal" tabindex="-1" id="cart19">
+     <div class="modal-dialog">
+       <div class="modal-content text-center text-white bg-warning">
+         <div class="modal-header ">
+           <h5 class="modal-title">ADD TO CART</h5>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body ">
+            <img src="mobiles/m19.jpg" width="100%"
+              <h4>₱590.02</h4>
+           </div>
+           <div class="modal-footer justify-content-center">
+             <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+             <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+           </div>
+         </div>
+       </div>
+     </div>
+    </div>
+    </div>
+    
+       <!-- MODAL 20 --->
+       <div class="modal" tabindex="-1" id="cart20">
+        <div class="modal-dialog">
+          <div class="modal-content text-center text-white bg-warning">
+            <div class="modal-header ">
+              <h5 class="modal-title">ADD TO CART</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ">
+                <img src="mobiles/m20.jpg"  width="100%">₱530.99</h4>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-success" onclick="addToCart()">Add to Cart</button>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buy1">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- BUYNOWMODAL -->
+<div class="modal fade" id="buy1">
+  <div class="modal-dialog ">
+    <div class="modal-content bg-warning">
+
+      <!-- username, lname, fname, gender, phone, user_type_id -->
+
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 dark-grey-text font-weight-bold">Shipping</h3>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-lable="close">&times;</button>
+      </div>
+      <form id="form1">
+        <div class="modal-body mx-4">
+          <div class="md-form">
+            <label data-error="wrong" data-success="right">Name</label>
+            <input type="text" class="form-control validate" id="cp_username" required>
+          </div>
+          <div class="md-form">
+            <label data-error="wrong" data-success="right">Number</label>
+            <input type="number" class="form-control validate"  required><br>
+          </div>
+          <div class="md-form">
+            <div class="md-form">
+              <label data-error="wrong" data-success="right">City</label>
+              <input type="text" class="form-control validate"  required>
+            </div>
+            <div class="md-form">
+            <label data-error="wrong" data-success="right">Address</label>
+            <input type="text" class="form-control validate"  required>
+          </div><br>
+          <div class="md-form">
+            <select class='form-control' name='gender' id="pay1"  required>
+              <option value="" disabled selected hidden>--Payment Method--</option>
+              <option value="1">Cash On Delivery</option>
+              <option value="2">Palawan</option>
+              <option value="3">BDO</option>
+              <option value="4">Paymaya</option>
+            </select>
+          </div>
+          <div class="text-center mt-3">
+            <button type="submit" class="btn btn-success btn-block z-depth-1a">SUBMIT</button>
+          </div>
+        </div>
+    </div>
+  </form>
+  </div>
+</div>
+</div>
+
+
+</body>
+</html>
+
+<script>
+  function addToCart(){
+    alert('Added To Cart')
+      window.location.reload()
+  }
+
+  $('#form1').submit(function(){
+    alert('Order Successfully')
+    setTimeout("location.href = 'home.html';", 2500);
+  })
+</script>
